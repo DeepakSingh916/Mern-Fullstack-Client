@@ -47,7 +47,7 @@ const Cart = () => {
                         <button className='btn btn-primary mx-3' style={{ fontWeight: 'bold' }}>Qty: {data.qty
                         }</button>
                         <button className='btn btn-warning mx-3' style={{ fontWeight: 'bold' }}>Checkout</button>
-                        <Link to={`/product/${data?.productId
+                        <Link to={`/product/${data?._id
                           }`} className='btn btn-info mx-3' style={{ fontWeight: 'bold' }}>Details</Link>
                         <button className='btn btn-danger mx-3' style={{ fontWeight: 'bold' }}>Remove</button>
                       </div>

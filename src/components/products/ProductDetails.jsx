@@ -14,7 +14,7 @@ const ProductDetails = () => {
 
   const [product, setProduct] = useState();
 
-  const url = "http://localhost:1000/api"
+  const url = "https://mern-fullstack-api.onrender.com/api"
   
   useEffect(() => {
     const fetchProduct = async () => {
